@@ -63,7 +63,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Nvidia JetRacer'
+project = 'JetRacer'
 copyright = 'None'
 author = 'Zia'
 
