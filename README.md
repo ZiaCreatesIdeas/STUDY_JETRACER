@@ -1,10 +1,7 @@
 # Documentation example
 
-This is an example of the stub that will be generated:
-https://ziacreatesideas.github.io/SPHINX_GETTING_STARTED_TEMPLATE/
-
-After you clone this repo, you will need to follow the install directions here:
-https://ziacreatesideas.github.io/STUDY_SPHINX-MYST
+Nvidia's Jetracer project (Strainflow, 2023)
+https://ziacreatesideas.github.io/STUDY_JETRACER/
 
 
 We use this example in one [CodeRefinery](https://coderefinery.org/) lesson:
