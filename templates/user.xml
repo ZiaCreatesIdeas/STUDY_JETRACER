@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="tb" value="| $1 | |  |&#10;|---|---|---|" description="table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
