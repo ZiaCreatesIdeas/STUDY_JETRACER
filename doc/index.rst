@@ -18,5 +18,7 @@ JetRacer, A Journey from Sim to Real and Back.
 .. toctree::
    :maxdepth: 2
 
+   welcome.md
+   cad.md
    resources.md
    credit.rst
