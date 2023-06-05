@@ -4,7 +4,7 @@
    table of contents
 
 
-Template
+Nvidia Jetracer Project with Strainflow, June, 2023.
 ========
 
 .. toctree::
