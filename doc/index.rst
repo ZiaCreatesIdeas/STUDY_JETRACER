@@ -7,6 +7,8 @@
 Nvidia Jetracer Project with Strainflow, June, 2023.
 ========
 
+This project will feature Sim to Real using the NVidia Jetracer model RC Car and Isaac Sim.
+
 .. toctree::
    :maxdepth: 2
 
