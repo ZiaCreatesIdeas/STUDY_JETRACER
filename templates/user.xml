@@ -19,4 +19,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="hd" value="&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div style=&quot;background-color: lightblue; padding: 10px;&quot;&gt;&#10;&lt;/div&gt;&#10;&lt;br&gt;&#10;&#10;### &#10;&#10;&lt;br&gt;&#10;&#10;&lt;style&gt;&#10;  video {&#10;    width: 100%;&#10;  }&#10;&lt;/style&gt;&#10; &#10;&lt;video controls&gt;&#10;&lt;source src='?raw=1'&gt;&#10;&lt;/video&gt;&#10;&#10;---&#10;" description="Header for operations etc" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
