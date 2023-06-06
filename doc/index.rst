@@ -20,5 +20,6 @@ JetRacer, A Journey from Sim to Real and Back.
 
    welcome.md
    cad.md
+   operations.md
    resources.md
    credit.rst
