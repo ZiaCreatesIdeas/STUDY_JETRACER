@@ -1,19 +1,11 @@
 
 
 (resources)=
-#### Example of a Header
+# Resources
 
-This is a list of helpful tutorials.
+[TT-02 Type-SR Manual](https://m.blog.naver.com/PostView.naver?blogId=kimhj9&logNo=222075546706&proxyReferer=https:%2F%2Fwww.google.com%2F)
+[Bill of Materials - Tamiya TT02](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md)
 
-##### Examples of Links
-
-Open USD Glossary of Terms: 
-**[openusd.org, Terms and Concepts](https://openusd.org/release/glossary.html)**\
-SideFx (Houdini) Definitions: 
-**[SideFX, Houdini, USD Basics](https://www.sidefx.com/docs/houdini/solaris/usd.html)**
-
-
-% This is a comment. Below we have an 'Horizontal Rule', a line that goes across the page.
 
 
 
