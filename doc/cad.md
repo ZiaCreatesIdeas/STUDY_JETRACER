@@ -6,13 +6,11 @@
 
 | **Key** | **Function** | **Note** |
 |---|---|---|
-| R | Rectangle (center) | Alt : Constrain > Square  |
-| G | Rectangle (corner) | Alt: Constrain > Square |
+| r | Rectangle (center) | Alt : Constrain > Square  |
+| g | Rectangle (corner) | Alt: Constrain > Square |
 |   |                    |                         |
-| p | plane visible (toggle) |  |
+| p | Plane visiblity (toggle) |  |
 ||||
-
----
 
 :::{card} Alt - HotKey
 
@@ -133,6 +131,85 @@ Add Color to an object by right clicking and choosing 'Edit Appearance'
 </video>
 
 ---
+
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+#### Tangent 
+
+:::{note}
+In this example we see that we can choose two elements to become tangent, and then choose the tangent tool last.
+:::
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/z4s4hdrreedz21w/Tangent_Circle_Square.mov?raw=1'>
+</video>
+
+---
+
+
+#### Revolute Joint Example
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/dsu4d6m46bjfdck/Revolute_Joint_mvp.mov?raw=1'>
+</video>
+
+---
+
+% CONSTRAINTS
+
+### Constraints
+
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+#### Equals Constraint
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/iw8671o2yrhfrgn/Equal_Constraint_Circles.mov?raw=1'>
+</video>
+
+---
+
+
 
 ### Errors and Problem Solving
 
