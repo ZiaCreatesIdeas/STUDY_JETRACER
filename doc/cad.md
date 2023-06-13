@@ -55,9 +55,40 @@ Alt to Constrain Rectangle
 
 ---
 
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+<br>
+</div>
+<br>
+
+### Beginner's Tutorial
+
+<br>
+
+:::{card} 
+
+The following tutorial is directly based on this [tutorial](https://www.youtube.com/watch?v=pMWnsHpDlQE).     
+The primary difference is that the tutorial below is designed to be followed side by side and step by step, without pausing and rewinding. It should take around 38 minutes to complete. No prior knowledge of OnShape is expected.
+
+:::
+
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/z5wptjx5e9eviho/Cad_OnShape_Zero_Hero.mp4?raw=1'>
+</video>
+
+---
+
+
 ### Tip and Tricks
-
-
 
 
 <br>
@@ -235,5 +266,27 @@ In this example we see that we can choose two elements to become tangent, and th
 
 ---
 
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+### 
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='?raw=1'>
+</video>
+
+---
 
 
