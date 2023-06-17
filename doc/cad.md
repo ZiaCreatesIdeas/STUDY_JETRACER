@@ -163,14 +163,6 @@ Add Color to an object by right clicking and choosing 'Edit Appearance'
 
 ---
 
-
-<br>
-<br>
-<div style="background-color: lightblue; padding: 10px;">
-</div>
-<br>
-
-
 <br>
 <br>
 <div style="background-color: lightblue; padding: 10px;">
@@ -215,7 +207,7 @@ In this example we see that we can choose two elements to become tangent, and th
 
 % CONSTRAINTS
 
-### Constraints
+## Constraints
 
 
 <br>
@@ -264,29 +256,6 @@ In this example we see that we can choose two elements to become tangent, and th
 <source src='https://www.dropbox.com/s/mwu5qdu0699j1ez/Error_Fixed_Avoid_Midpoint_Constraints.mov?raw=1'>
 </video>
 
----
 
-
-<br>
-<br>
-<div style="background-color: lightblue; padding: 10px;">
-</div>
-<br>
-
-### 
-
-<br>
-
-<style>
-  video {
-    width: 100%;
-  }
-</style>
- 
-<video controls>
-<source src='?raw=1'>
-</video>
-
----
 
 
