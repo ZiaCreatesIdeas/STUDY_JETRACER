@@ -2,6 +2,8 @@
 
 ## OnShape
 
+- [OnShape Article on Mates](https://learn.onshape.com/courses/all-the-ways-to-use-mate-connectors?returnTo=/learn/article/all-the-ways-to-use-mate-connectors)
+
 ### Hotkeys
 
 | **Key** | **Function** | **Note** |
@@ -117,7 +119,7 @@ Add Color to an object by right clicking and choosing 'Edit Appearance'
 
 
 
-### Operations
+### OPERATIONS
 
 <br>
 <br>
@@ -205,14 +207,38 @@ In this example we see that we can choose two elements to become tangent, and th
 
 ---
 
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+### Sweep Example (Non-Orthogonal Plane)
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/2zwlxnjaclew1d7/Sweep_New_Plane.mov?raw=1'>
+</video>
+
+---
+
+
 % CONSTRAINTS
 
-## Constraints
+## CONSTRAINTS
 
 
 <br>
 <br>
 <div style="background-color: lightblue; padding: 10px;">
+
 </div>
 <br>
 
