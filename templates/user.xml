@@ -24,4 +24,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="blue" value="&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div style=&quot;background-color: lightblue; padding: 10px;&quot;&gt;&#10;&lt;/div&gt;&#10;&lt;br&gt;" description="Add a line of blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
