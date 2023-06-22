@@ -32,6 +32,30 @@ Alt to Constrain Rectangle
 
 ---
 
+
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+### How to Use Tutorials
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/u506kgdoidgm4x5/How_To_Use_These_Tutorials.mov?raw=1'>
+</video>
+
+---
+
+
 ### Navigation
 
 
@@ -230,9 +254,32 @@ In this example we see that we can choose two elements to become tangent, and th
 ---
 
 
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+
+### Mate Connectors
+
+<br>
+
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://www.dropbox.com/s/a9cl2x853tdjr2s/Mate_Connectors_In_Space.mov?raw=1'>
+</video>
+
+---
+
+
 % CONSTRAINTS
 
-## CONSTRAINTS
+### Constraints
 
 
 <br>
