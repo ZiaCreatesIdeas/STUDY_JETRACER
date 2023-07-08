@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="Added CAD file.">
-      <change beforePath="$PROJECT_DIR$/doc/cad.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/cad.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -41,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/cad.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1008">
-                <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <first_editor relative-caret-position="194">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -133,9 +133,9 @@
         <option value="$PROJECT_DIR$/doc/operations.md" />
         <option value="$PROJECT_DIR$/doc/welcome.md" />
         <option value="$PROJECT_DIR$/doc/resources.md" />
-        <option value="$PROJECT_DIR$/doc/index.rst" />
         <option value="$PROJECT_DIR$/doc/links.md" />
         <option value="$PROJECT_DIR$/doc/cad.md" />
+        <option value="$PROJECT_DIR$/doc/index.rst" />
       </list>
     </option>
   </component>
@@ -217,6 +217,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="781" y="105" width="1778" height="1296" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15025611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -276,9 +277,6 @@
     <entry file="file://$PROJECT_DIR$/doc/Images/copy_button/copy_button_02.png" />
     <entry file="file://$PROJECT_DIR$/doc/operations.md" />
     <entry file="file://$PROJECT_DIR$/doc/resources.md" />
-    <entry file="file://$PROJECT_DIR$/doc/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/links.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -336,12 +334,15 @@
     <entry file="file://$PROJECT_DIR$/doc/cad.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1008">
-            <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <first_editor relative-caret-position="194">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

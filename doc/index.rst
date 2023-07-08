@@ -12,7 +12,7 @@ JetRacer, A Journey from Sim to Real and Back.
 | - This project will feature Sim to Real using the NVidia Jetracer model RC Car and Isaac Sim.
 | - This is a community project open to all.
 | - This documentation and pages are fan created and are non-official documents.
-| - This documentation is available on Github and can be cloned or modified via poll requests.
+| - This documentation is available on Github and can be cloned or modified via pull requests.
 
 
 .. toctree::
