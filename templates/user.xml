@@ -29,4 +29,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="img" value="![$VARNAME$]($SELECTION$ &quot;A cute cat&quot;)" description="insert image" toReformat="false" toShortenFQNames="true">
+    <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
