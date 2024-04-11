@@ -35,7 +35,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="lnk" value="[$SELECTION$]($SELECTION$)" description="embed link" toReformat="true" toShortenFQNames="true">
+  <template name="lnk" value="[alt]($SELECTION$)" description="embed link" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="false" />
       <option name="JSON" value="false" />
