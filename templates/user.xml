@@ -53,4 +53,13 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="yt" value=":::{card}&#10;&#10;#### Diff&#10; &#10;&lt;div style=&quot;background-color: lightblue; padding: 10px;&quot;&gt;&#10;&lt;/div&gt;&#10; &#10;---&#10;&#10;tag: #diff, #dump, #Painless360&#10;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;$SELECTION$&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;&#10;&#10;:::" description="youtube embed with card" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
