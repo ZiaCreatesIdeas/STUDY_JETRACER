@@ -62,4 +62,13 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="spn" value="&lt;div style=&quot;background-color: #$SELECTION$; text-align: center; padding: 10px; font-size: 1.2em;&quot;&gt;&#10;  $SELECTION$&#10;&lt;/div&gt;" description="Span, includes centered text and hex. code for colors" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
