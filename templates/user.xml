@@ -71,4 +71,13 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="hx" value="&lt;br&gt;&#10;&lt;div style=&quot;background-color: $SELECTION$; padding: 10px;&quot;&gt;&#10;&lt;/div&gt;&#10;&lt;br&gt;" description="bar that uses hex colors" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
