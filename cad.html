@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAD &mdash; JetRacer 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="_static/copybutton.js?v=f281be69"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Links" href="links.html" />
+    <link rel="prev" title="Welcome" href="welcome.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            JetRacer
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">CAD</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#onshape">OnShape</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hotkeys">Hotkeys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-use-tutorials">How to Use Tutorials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigation">Navigation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#nav-cube">Nav Cube</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#beginner-s-tutorial">Beginner’s Tutorial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tip-and-tricks">Tip and Tricks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#add-color-to-objects">Add Color to Objects</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#operations">OPERATIONS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mirror-operation">Mirror Operation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#slot-operation">Slot Operation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tangent">Tangent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#revolute-joint-example">Revolute Joint Example</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sweep-example-non-orthogonal-plane">Sweep Example (Non-Orthogonal Plane)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mate-connectors">Mate Connectors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#constraints">Constraints</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#equals-constraint">Equals Constraint</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#errors-and-problem-solving">Errors and Problem Solving</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fixing-midpoint-constraint-issues">Fixing Midpoint Constraint Issues</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="links.html">Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="credit.html">Credit and inspiration</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">JetRacer</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">CAD</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cad">
+<h1>CAD<a class="headerlink" href="#cad" title="Link to this heading"></a></h1>
+<section id="onshape">
+<h2>OnShape<a class="headerlink" href="#onshape" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://learn.onshape.com/courses/all-the-ways-to-use-mate-connectors?returnTo=/learn/article/all-the-ways-to-use-mate-connectors">OnShape Article on Mates</a></p></li>
+</ul>
+<section id="hotkeys">
+<h3>Hotkeys<a class="headerlink" href="#hotkeys" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Key</strong></p></th>
+<th class="head"><p><strong>Function</strong></p></th>
+<th class="head"><p><strong>Note</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>r</p></td>
+<td><p>Rectangle (center)</p></td>
+<td><p>Alt : Constrain &gt; Square</p></td>
+</tr>
+<tr class="row-odd"><td><p>g</p></td>
+<td><p>Rectangle (corner)</p></td>
+<td><p>Alt: Constrain &gt; Square</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>p</p></td>
+<td><p>Plane visiblity (toggle)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Alt - HotKey</div>
+<p class="sd-card-text">Alt to Constrain Rectangle</p>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/t9o8853joxersga/HotKey_Alt_Square_Constrain.mov?raw=1'>
+</video>
+</div>
+</div>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+</section>
+<section id="how-to-use-tutorials">
+<h3>How to Use Tutorials<a class="headerlink" href="#how-to-use-tutorials" title="Link to this heading"></a></h3>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/u506kgdoidgm4x5/How_To_Use_These_Tutorials.mov?raw=1'>
+</video>
+</section>
+<hr class="docutils" />
+<section id="navigation">
+<h3>Navigation<a class="headerlink" href="#navigation" title="Link to this heading"></a></h3>
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+<section id="nav-cube">
+<h4>Nav Cube<a class="headerlink" href="#nav-cube" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/uo1vtrpkbd2sf02/Navigation_Nav_Cube.mov?raw=1'>
+</video>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+<br>
+</div>
+<br>
+</section>
+</section>
+<section id="beginner-s-tutorial">
+<h3>Beginner’s Tutorial<a class="headerlink" href="#beginner-s-tutorial" title="Link to this heading"></a></h3>
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">The following tutorial is directly based on this <a class="reference external" href="https://www.youtube.com/watch?v=pMWnsHpDlQE">tutorial</a>.<br />
+The primary difference is that the tutorial below is designed to be followed side by side and step by step, without pausing and rewinding. It should take around 38 minutes to complete. No prior knowledge of OnShape is expected.</p>
+</div>
+</div>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/z5wptjx5e9eviho/Cad_OnShape_Zero_Hero.mp4?raw=1'>
+</video>
+</section>
+<hr class="docutils" />
+<section id="tip-and-tricks">
+<h3>Tip and Tricks<a class="headerlink" href="#tip-and-tricks" title="Link to this heading"></a></h3>
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+<section id="add-color-to-objects">
+<h4>Add Color to Objects<a class="headerlink" href="#add-color-to-objects" title="Link to this heading"></a></h4>
+<br>
+<p>Add Color to an object by right clicking and choosing ‘Edit Appearance’</p>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/a3wdlbv5r9xthdy/Edit_Appearance.mov?raw=1'>
+</video>
+</section>
+</section>
+<hr class="docutils" />
+<section id="operations">
+<h3>OPERATIONS<a class="headerlink" href="#operations" title="Link to this heading"></a></h3>
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+<section id="mirror-operation">
+<h4>Mirror Operation<a class="headerlink" href="#mirror-operation" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/7n4xuwcauagpnrf/Mirror_Two_Holes.mov?raw=1'>
+</video>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+</section>
+<section id="slot-operation">
+<h4>Slot Operation<a class="headerlink" href="#slot-operation" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/wczvpwo0q4qt8hv/Slot_Centerline.mov?raw=1'>
+</video>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+</section>
+<section id="tangent">
+<h4>Tangent<a class="headerlink" href="#tangent" title="Link to this heading"></a></h4>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this example we see that we can choose two elements to become tangent, and then choose the tangent tool last.</p>
+</div>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/z4s4hdrreedz21w/Tangent_Circle_Square.mov?raw=1'>
+</video>
+</section>
+<hr class="docutils" />
+<section id="revolute-joint-example">
+<h4>Revolute Joint Example<a class="headerlink" href="#revolute-joint-example" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/dsu4d6m46bjfdck/Revolute_Joint_mvp.mov?raw=1'>
+</video>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+</section>
+</section>
+<section id="sweep-example-non-orthogonal-plane">
+<h3>Sweep Example (Non-Orthogonal Plane)<a class="headerlink" href="#sweep-example-non-orthogonal-plane" title="Link to this heading"></a></h3>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/2zwlxnjaclew1d7/Sweep_New_Plane.mov?raw=1'>
+</video>
+<hr class="docutils" />
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+</section>
+<section id="mate-connectors">
+<h3>Mate Connectors<a class="headerlink" href="#mate-connectors" title="Link to this heading"></a></h3>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/a9cl2x853tdjr2s/Mate_Connectors_In_Space.mov?raw=1'>
+</video>
+<hr class="docutils" />
+</section>
+<section id="constraints">
+<h3>Constraints<a class="headerlink" href="#constraints" title="Link to this heading"></a></h3>
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+<section id="equals-constraint">
+<h4>Equals Constraint<a class="headerlink" href="#equals-constraint" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/iw8671o2yrhfrgn/Equal_Constraint_Circles.mov?raw=1'>
+</video>
+</section>
+</section>
+<hr class="docutils" />
+<section id="errors-and-problem-solving">
+<h3>Errors and Problem Solving<a class="headerlink" href="#errors-and-problem-solving" title="Link to this heading"></a></h3>
+<br>
+<br>
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+<br>
+<section id="fixing-midpoint-constraint-issues">
+<h4>Fixing Midpoint Constraint Issues<a class="headerlink" href="#fixing-midpoint-constraint-issues" title="Link to this heading"></a></h4>
+<br>
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+<video controls>
+<source src='https://www.dropbox.com/s/mwu5qdu0699j1ez/Error_Fixed_Avoid_Midpoint_Constraints.mov?raw=1'>
+</video>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="welcome.html" class="btn btn-neutral float-left" title="Welcome" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="links.html" class="btn btn-neutral float-right" title="Links" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright None.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
